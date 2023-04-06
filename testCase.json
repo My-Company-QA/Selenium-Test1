@@ -1,0 +1,60 @@
+[
+    {
+        "testCaseID": "T001",
+        "title": "Verify user can log in",
+        "preconditions": "1. User must be registered \n 2. Valid login credentials",
+        "testSteps": [
+            {
+                "title": "Navigate to TestScalar website Page",
+                "expectedResult": "https://www.testscalar.com/",
+                "action": "Get",
+                "xpath": "",
+                "addText": "https://www.testscalar.com",
+                "beforeSleep": 0,
+                "screenshot": "HomeTestScalar",
+                "windowZoom": true,
+                "refreshWindow": false
+            },
+            {
+                "title": "Navigate to TestScalar Home Page",
+                "expectedResult": "https://www.testscalar.com/console",
+                "action": "Click",
+                "xpath": "//*[text()='Get Started']",
+                "addText": "",
+                "beforeSleep": 0,
+                "screenshot": "TestScalar",
+                "windowZoom": true,
+                "refreshWindow": false
+            }
+        ]
+    },
+    {
+        "testCaseID": "T002",
+        "title": "Verify user can log in",
+        "preconditions": "1. User must be registered \n 2. Valid login credentials",
+        "testSteps": [
+            {
+                "title": "Navigate to TestScalar website Page",
+                "expectedResult": "https://www.testscalar.com/",
+                "action": "Get",
+                "xpath": "",
+                "addText": "https://www.testscalar.com",
+                "beforeSleep": 0,
+                "screenshot": "HomeTestScalar",
+                "windowZoom": true,
+                "refreshWindow": false
+            },
+            {
+                "title": "Navigate to TestScalar Home Page",
+                "expectedResult": "https://www.testscalar.com/console",
+                "action": "Click",
+                "xpath": "//*[text()='Get Started']",
+                "addText": "",
+                "beforeSleep": 0,
+                "screenshot": "TestScalar",
+                "windowZoom": true,
+                "refreshWindow": false
+            }
+        ]
+    }
+]
